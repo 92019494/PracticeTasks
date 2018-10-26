@@ -43,6 +43,8 @@ public class JavaBuiltInSort {
         JavaBuiltInSort ob = new JavaBuiltInSort();
 
         Integer arr[] = {64, 34, 25, 12, 22, 90, 11};
+        
+
 
         System.out.println("The Unsorted array is");
 
@@ -71,7 +73,18 @@ public class JavaBuiltInSort {
         System.out.println("The Java Built in Reverse Sorted array is");
 
         ob.printArray(arr);
+        
+        //new array
+        String array[] = {"Theo", "Tyrone", "Ellie", "Ellis", "Callum", "Jamie", "Matt", "Andrew"};
+        
+        sort(array);
 
+        System.out.println("The Java Built In Sorted string array is");
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]); 
+            
+        }
     }
 
 }
