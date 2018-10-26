@@ -94,6 +94,15 @@ public class JavaBuiltInSort {
             System.out.println(array[i]);
             
         }
+        
+        sort(array, 3, 7);
+
+        System.out.println("The Java Built In Sort of the last 4 elements is");
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+            
+        }
     }
 
 }
