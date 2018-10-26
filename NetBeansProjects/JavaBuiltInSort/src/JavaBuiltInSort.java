@@ -85,6 +85,15 @@ public class JavaBuiltInSort {
             System.out.println(array[i]); 
             
         }
+        
+        sort(array, Collections.reverseOrder());
+
+        System.out.println("The Java Built in Reverse Sorted array is");
+        
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+            
+        }
     }
 
 }
